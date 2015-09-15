@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4A209B361BA6FD1000C567D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A209B351BA6FD1000C567D3 /* AppDelegate.swift */; };
-		4A209B381BA6FD1000C567D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A209B371BA6FD1000C567D3 /* ViewController.swift */; };
+		4A209B381BA6FD1000C567D3 /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A209B371BA6FD1000C567D3 /* PsychologistViewController.swift */; };
 		4A209B3B1BA6FD1000C567D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A209B391BA6FD1000C567D3 /* Main.storyboard */; };
 		4A209B3D1BA6FD1000C567D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A209B3C1BA6FD1000C567D3 /* Images.xcassets */; };
 		4A209B401BA6FD1000C567D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A209B3E1BA6FD1000C567D3 /* LaunchScreen.xib */; };
 		4A209B4C1BA6FD1000C567D3 /* PsychologistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A209B4B1BA6FD1000C567D3 /* PsychologistTests.swift */; };
+		4A209B571BA702C200C567D3 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A209B551BA702C200C567D3 /* HappinessViewController.swift */; };
+		4A209B581BA702C200C567D3 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A209B561BA702C200C567D3 /* FaceView.swift */; };
+		4A209B5A1BA7167700C567D3 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A209B591BA7167700C567D3 /* TextViewController.swift */; };
+		4A209B5C1BA7186E00C567D3 /* DiagnosedHappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A209B5B1BA7186E00C567D3 /* DiagnosedHappinessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,17 @@
 		4A209B301BA6FD1000C567D3 /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A209B341BA6FD1000C567D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A209B351BA6FD1000C567D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A209B371BA6FD1000C567D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A209B371BA6FD1000C567D3 /* PsychologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewController.swift; sourceTree = "<group>"; };
 		4A209B3A1BA6FD1000C567D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A209B3C1BA6FD1000C567D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A209B3F1BA6FD1000C567D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4A209B451BA6FD1000C567D3 /* PsychologistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A209B4A1BA6FD1000C567D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A209B4B1BA6FD1000C567D3 /* PsychologistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistTests.swift; sourceTree = "<group>"; };
+		4A209B551BA702C200C567D3 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		4A209B561BA702C200C567D3 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		4A209B591BA7167700C567D3 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		4A209B5B1BA7186E00C567D3 /* DiagnosedHappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosedHappinessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +85,13 @@
 		4A209B321BA6FD1000C567D3 /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
+				4A209B551BA702C200C567D3 /* HappinessViewController.swift */,
+				4A209B5B1BA7186E00C567D3 /* DiagnosedHappinessViewController.swift */,
+				4A209B561BA702C200C567D3 /* FaceView.swift */,
 				4A209B351BA6FD1000C567D3 /* AppDelegate.swift */,
-				4A209B371BA6FD1000C567D3 /* ViewController.swift */,
+				4A209B371BA6FD1000C567D3 /* PsychologistViewController.swift */,
 				4A209B391BA6FD1000C567D3 /* Main.storyboard */,
+				4A209B591BA7167700C567D3 /* TextViewController.swift */,
 				4A209B3C1BA6FD1000C567D3 /* Images.xcassets */,
 				4A209B3E1BA6FD1000C567D3 /* LaunchScreen.xib */,
 				4A209B331BA6FD1000C567D3 /* Supporting Files */,
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A209B381BA6FD1000C567D3 /* ViewController.swift in Sources */,
+				4A209B5A1BA7167700C567D3 /* TextViewController.swift in Sources */,
+				4A209B381BA6FD1000C567D3 /* PsychologistViewController.swift in Sources */,
+				4A209B571BA702C200C567D3 /* HappinessViewController.swift in Sources */,
+				4A209B5C1BA7186E00C567D3 /* DiagnosedHappinessViewController.swift in Sources */,
 				4A209B361BA6FD1000C567D3 /* AppDelegate.swift in Sources */,
+				4A209B581BA702C200C567D3 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
